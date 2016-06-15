@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	border: 0 none;
+	font-family: 'Montserrat', Arial, sans-serif;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	outline: none;
+	color: #000;
+	text-align: center;
+	box-sizing: border-box;
+	line-height: 1.4;
+}
+body, html {
+	background-color: #fff;
+}
+
+header, section, footer{
+	width: 100%;
+	margin: 60px 0;
+}
+h1 {
+	text-transform: uppercase;
+	font-size: 2em;
+}
+h2{
+	font-size: 1.4em;
+}
+
+
+.page{
+	border-top: 10px solid #04A5B2;
+	width: 100%;
+}
+
+.contain{
+	padding: 30px 0;
+	display: inline-block;
+	margin: 0 auto;
+	width: 60%;
+}
+
+#message {
+	background-color: #E6E6E6;
+}
+
+img {
+	width: 30%;
+	margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
