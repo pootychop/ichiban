@@ -86,6 +86,7 @@ footer div {
 }
 footer a {
 	color: #fff;
+	display: block;
 }
 
 #address {
