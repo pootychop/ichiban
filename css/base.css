@@ -1,32 +1,45 @@
 @charset "UTF-8";
 /* CSS Document */
-* {
+body {
 	border: 0 none;
 	font-family: 'Montserrat', Arial, sans-serif;
 	font-size: 18px;
+	font-weight: 400;
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
 	outline: none;
-	color: #000;
 	text-align: center;
 	box-sizing: border-box;
 	line-height: 1.4;
-}
-body, html {
 	background-color: #fff;
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+	color: #04A5B2;
+}
+
+p{
+	font-size: 1em;
+	margin: 0;
 }
 
 header, section, footer{
 	width: 100%;
-	margin: 60px 0;
 }
+
 h1 {
 	text-transform: uppercase;
 	font-size: 2em;
 }
 h2{
 	font-size: 1.4em;
+}
+
+h3 {
+	border-bottom: 1px solid #fff;
 }
 
 
@@ -36,10 +49,16 @@ h2{
 }
 
 .contain{
-	padding: 30px 0;
-	display: inline-block;
-	margin: 0 auto;
+	padding: 40px 0;
+	display: block;
+	margin: 0px auto;
 	width: 60%;
+	overflow: auto;
+}
+
+.half {
+	width: 50%;
+	float: left;
 }
 
 #message {
@@ -47,10 +66,51 @@ h2{
 }
 
 img {
-	width: 30%;
+	width: 60%;
+	max-width: 380px;
+	min-width: 180px;
 	margin: 10px 0;
 }
 
+footer {
+	font-weight: 400;
+	text-align: left;
+	background-color: #000;
+	color: #fff;
+}
+
+footer div {
+	display: block;
+	margin: 0;
+}
+footer a {
+	color: #fff;
+}
+
+#address {
+	text-align: right;
+	float: right;
+}
+
+@media screen and (max-width: 900px){
+	.half {
+	width: 100%;
+	float: none;
+	padding-top: 10px;
+}
+	#address {
+	text-align: left;
+	float: none;
+}
+
+}
+
+@media screen and (max-width: 600px){
+	p, a {
+		font-size: 0.8em
+	}
+
+}
 
 
 
