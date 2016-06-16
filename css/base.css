@@ -53,6 +53,7 @@ h3 {
 	display: block;
 	margin: 0px auto;
 	width: 60%;
+	max-width: 800px;
 	overflow: auto;
 }
 
