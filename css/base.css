@@ -16,9 +16,12 @@ body {
 	color: #000;
 }
 
-a {
+a, li {
 	text-decoration: none;
 	color: #04A5B2;
+}
+ul {
+	list-style-type: none;
 }
 
 p{
