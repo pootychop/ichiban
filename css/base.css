@@ -117,7 +117,7 @@ h4{
 	color: #fff;
 	text-align: left;
 }
-#menu h2 {
+#menu h2, #hours h2 {
 	text-align: center;
 }
 #dinner {
@@ -126,6 +126,7 @@ h4{
 #hours {
 	background-color: #E6E6E6;
 	margin: 0 auto;
+	text-align: left;
 }
 
 img {
